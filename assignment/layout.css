@@ -1,0 +1,127 @@
+﻿@charset "utf-8";
+
+/* 컬러칩 배경: #191825 / 글자: #00F372 / 잔잔한: #294788*/
+body {
+	font-family: 'IBM Plex Sans KR', sans-serif;
+	text-align: center;
+	color: #ffffff;
+
+}
+
+.container {
+
+	width: 1200px;
+	margin: 0 auto;
+	background-color: #191825;
+	border: 3px double #00F372;
+	/*border:1px solid #00F372;*/
+}
+
+header {
+	background-repeat: no-repeat;
+	background-position: left top;
+	border-bottom: 3px double #00F372;
+}
+/*상단바*/
+#topbar {
+    border-bottom:3px double #00F372;
+}
+
+ul {
+	list-style-type: none;
+}
+
+ul li {
+	display: inline;
+	padding: 0px 10px 0px 10px;
+	margin: 5px 0px 5px 0px;
+	
+}
+
+a{
+	text-decoration-line: none;
+	color:#00F372;
+}
+
+a:hover, a:active, a:focus {
+	text-shadow:0px 2px 2px #000;
+	color:#FFFFFF;
+}
+
+nav {
+	font-size: 20px;
+	float: left;
+	width: 15%;
+	height: 720px;
+	background-color: #191825;
+	padding-top: 20px;
+	padding-left: 10px;
+	padding-right: 10px;
+	border-right: 3px double #00F372;
+
+}
+
+nav img {
+	margin-bottom: 5px;
+	text-align: center;
+}
+
+nav a,
+nav a:visited {
+	display: block;
+	color: #00F372;
+	width: 150px;
+	text-decoration: none;
+}
+
+nav a:hover,
+nav a:active,
+nav a:focus {
+	text-shadow: 0px 2px 2px #000;
+	color: #FFFFFF;
+}
+
+section {
+	background-color: #191825;
+	padding-top: 1px;
+	padding-left: 1px;
+	width: 81%;
+	float: left;
+	height: 720px;
+
+}
+#index {
+	padding-left: 114px;
+	padding-top: 20px;
+}
+iframe {
+	border: none;
+}
+
+footer {
+	color: #FFFFFF;
+	clear: both;
+	text-align: center;
+	font-size: 15px;
+	border-top: 3px double #00F372;
+	background-color: #191825;
+}
+
+header,
+section,
+footer,
+nav {
+	display: block;
+}
+
+/*profile
+span {
+    color: #191825;
+    background-color: #00F372;
+    border-radius: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 1px;
+    padding-bottom: 1px;
+}*/
+

@@ -1,0 +1,38 @@
+body {
+	background-image: url(images/maintable_background.jpg);
+    background-size : cover;
+	font-family: 'IBM Plex Sans KR', sans-serif;
+	text-align: center;
+	color: #ffffff;
+
+}
+
+mark {
+    background-color: #00F372;
+    border-radius: 10px;
+    padding: 1px;
+}
+
+ul li {display:block;}
+li {
+    list-style-type: disc;
+}
+
+#Academic {
+    margin:1px auto auto auto;
+}
+
+#spname {
+    color: #00F372;
+    background-color: #191825;
+}
+
+span {
+    color: #191825;
+    background-color: #00F372;
+    border-radius: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 1px;
+    padding-bottom: 1px;
+}
